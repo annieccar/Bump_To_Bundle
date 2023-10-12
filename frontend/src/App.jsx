@@ -10,12 +10,12 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "Chilanka";
-    src: url("../src/assets/Fonts/Chilanka/Chilanka-Regular.ttf");
+    src: url("./assets/Fonts/Chilanka/Chilanka-Regular.ttf");
   }
 
   @font-face {
     font-family: "Montserrat";
-    src: url("../src/assets/Fonts/Montserrat/static/Montserrat-Medium.ttf");
+    src: url("./assets/Fonts/Montserrat/static/Montserrat-Medium.ttf");
   }
   body{
     background: #FFFEFA;
