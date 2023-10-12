@@ -5,15 +5,16 @@ import LogIn from "../pages/LogIn";
 import MyGifts from "../pages/MyGifts";
 import SignIn from "../pages/SignIn";
 import BirthList from "../pages/BirthList";
-import Home from "../Pages/Home";
+
 import CreateList from "../pages/CreateList";
 import EditItem from "../pages/EditItem";
 import AddItem from "../pages/AddItem";
+import HomePage from "../pages/HomePage";
 
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/login" element={<LogIn />} />
       <Route path="/birthlist" element={<BirthList />} />
