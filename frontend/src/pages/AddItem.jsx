@@ -44,8 +44,9 @@ export default function AddItem() {
           headers: { "Content-Type": "multipart/form-data" },
         })
         .then((res) => {
-          console.log(res);
-          return navigate("/birthlist");
+          if (res.status === 201) {
+            navigate("/birthlist");
+          }
         })
         .catch((error) => {
           console.error("An error occurred:", error);
