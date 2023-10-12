@@ -2,6 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
+import homeImage from "../assets/Images/fe-ngo-bvx3G7RkOts-unsplash (1).jpg";
+
 export default function HomePage() {
   const navigate = useNavigate();
 
@@ -9,7 +11,7 @@ export default function HomePage() {
     <Homepage>
       <Title>Bébé arrive bientôt...</Title>
       <Container>
-        <Image src="../../src/assets/Images/fe-ngo-bvx3G7RkOts-unsplash (1).jpg" />
+        <Image src={homeImage} />
         <Paragraph>
           Bienvenue sur le site de notre liste de naissance! Ceci est un petit
           projet personnel que j'ai entamé durant ma formation de développeur

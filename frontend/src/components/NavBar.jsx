@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
 import { useUserContext } from "../contexts/UserContext";
 import { useState, useEffect } from "react";
+import Logo from "../assets/Logo/png/logo-no-background.png";
 
 import interceptor from "../hooks/useInstanceWithInterceptor";
 
@@ -59,7 +60,7 @@ export default function NavBar() {
   return (
     <Nav>
       <Link to="/" style={{ height: "75%" }}>
-        <Logo src="../src/assets/Logo/png/logo-no-background.png" />
+        <Logo src={Logo} />
       </Link>
       <Container>
         {user && !isMobile ? (
