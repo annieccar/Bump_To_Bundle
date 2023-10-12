@@ -7,15 +7,18 @@ import AppRoutes from "./routes/router";
 
 import { createGlobalStyle } from "styled-components";
 
+import chilankaFont from "./assets/Fonts/Chilanka/Chilanka-Regular.ttf";
+import montserratFont from "./assets/Fonts/Montserrat/static/Montserrat-Medium.ttf";
+
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "Chilanka";
-    src: url("./assets/Fonts/Chilanka/Chilanka-Regular.ttf");
+    src: url(${chilankaFont});
   }
 
   @font-face {
     font-family: "Montserrat";
-    src: url("./assets/Fonts/Montserrat/static/Montserrat-Medium.ttf");
+    src:url(${montserratFont});
   }
   body{
     background: #FFFEFA;
