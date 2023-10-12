@@ -1,15 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../Pages/Home";
 
-import CreateList from "../Pages/CreateList";
-
-import AddItem from "../Pages/AddItem";
-import EditItem from "../Pages/EditItem";
 import OfferItem from "../pages/OfferItem";
 import LogIn from "../pages/LogIn";
 import MyGifts from "../pages/MyGifts";
 import SignIn from "../pages/SignIn";
 import BirthList from "../pages/BirthList";
+import Home from "../Pages/Home";
+import CreateList from "../pages/CreateList";
+import EditItem from "../pages/EditItem";
+import AddItem from "../pages/AddItem";
 
 function AppRoutes() {
   return (
