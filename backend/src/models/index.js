@@ -1,5 +1,5 @@
 import ItemManager from "./ItemManager.js";
-import ListManager from "./listManager.js";
+import ListManager from "./ListManager.js";
 import UserManager from "./UserManager.js";
 import db from "./db.js";
 
