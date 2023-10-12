@@ -1,0 +1,625 @@
+<mxfile host="65bd71144e">
+    <diagram id="ywigsoZx6fS_oo1onc2e" name="Page-1">
+        <mxGraphModel dx="903" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="50" width="450" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="50" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="55" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="55" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="My birth wishlist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="100" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Image" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="160" width="250" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Bum to bundle allows you to create your own personnalised birth wish list and share it with your friends and family. Don't need to worry about ...." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="160" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Join the bum club" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="320" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="400" width="450" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="400" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="405" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="405" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="530" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Join the bum club to create your list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="450" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Email:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="500" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="580" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Password:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="550" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="630" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="First Name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="600" width="75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="680" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Last Name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="650" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="730" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Username:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="700" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Create my birth wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="780" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="880" width="450" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="880" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="885" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="885" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1010" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Create my birth Wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="930" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="List name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="980" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1060" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Birth due date:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1030" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="202.5" y="1150" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Baby's name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1120" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Create my birth wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1260" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1100" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Boy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="1090" width="35" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="262.5" y="1100" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Girl" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="272.5" y="1090" width="35" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1100" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Surprise!" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="1090" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="1100" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Twins or more..." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="1090" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1180" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Not sure yet or don't want to waste the surprise!" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1180" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1370" width="450" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1370" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="1375" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="1375" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="ListName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="1420" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Add an item" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1770" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1490" width="130" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="For baby ...{baby's name}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1450" width="162.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Due on {due date}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1450" width="162.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="Category 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1490" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1530" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1570" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1650" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1690" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="1490" width="130" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Category 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="1490" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1530" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1570" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1650" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1690" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1490" width="130" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="Category 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1490" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1530" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1570" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1650" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1690" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1860" width="450" height="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1860" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="1865" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="1865" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1990" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Add an item to my list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="1910" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="Item name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1960" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2040" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="Quantity needed:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2010" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="2190" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="Add this item to my list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="217.5" y="2430" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="2110" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="2110" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="2110" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="2110" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="Select Category:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2060" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="Bathroom" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="2100" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="Baby's room" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="2100" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="Clothing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="2100" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="Feeding" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="2100" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="2140" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="Baby's care" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="2130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2140" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="Playtime" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="2130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="302.5" y="2140" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="Others" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="302.5" y="2130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Link to item selected (if applicable):" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="2160" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="More details I wish to provide:&amp;nbsp;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="2220" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="202.5" y="2260" width="185" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="148.75" y="2570" width="302.5" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="Item name" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="222.5" y="2590" width="157.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="Quantity still required:" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="172.5" y="2640" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="Link to the item selected :" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="2680" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="More details:" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="167.5" y="2720" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183.75" y="2750" width="246.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="182.5" y="2850" width="247.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="2865" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="Quantity you wish to offer:" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="2860" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="If you would like to offer this item:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="2820" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="Confirm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="237.5" y="2900" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="50" width="240" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="50" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="55" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="55" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="My birth wishlist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="100" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="Image" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="230" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="Bum to bundle allows you to create your own personnalised birth wish list and share it with your friends and family. Don't need to worry about ...." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="150" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="Join the bum club" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="615" y="370" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="460" width="240" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="460" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="465" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="465" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="Join the bum club to create your list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="450" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="Email:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="500" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="530" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="Password:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="550" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="580" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="First Name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="600" width="75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="750" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="Last Name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="720" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="800" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="Username:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="770" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="Create my birth wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="850" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="Join the bum club to create your list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="520" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="Email:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="600" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Password:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="620" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="650" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="First Name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="670" width="75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="700" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="945" width="240" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="945" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="950" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="950" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="587.5" y="1085" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="Create my birth Wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="592.5" y="1005" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="List name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="587.5" y="1055" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="587.5" y="1135" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="Birth due date:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="587.5" y="1105" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="587.5" y="1260" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="Baby's name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1230" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="Create my birth wish List" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="602.5" y="1335" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="Boy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="597.5" y="1165" width="35" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="Girl" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="1165" width="35" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="Surprise!" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="1165" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="Twins or more..." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="637.5" y="1200" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1290" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="Not sure yet or don't want to waste the surprise!" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="1290" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="592.5" y="1175" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="1175" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="1175" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="627.5" y="1210" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="567.5" y="1450" width="240" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="567.5" y="1450" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="577.5" y="1455" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="727.5" y="1455" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="ListName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="1510" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="For baby ...{baby's name}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="606.25" y="1540" width="162.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Due on {due date}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="606.25" y="1580" width="162.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1630" width="130" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="Category 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1630" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1670" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1710" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1750" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1790" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="Item: available" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1830" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="Add an item" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="632.5" y="1940" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="2020" width="240" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="2020" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="Logo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="2025" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="UserName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="735" y="2025" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="Add an item to my list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="602.5" y="2070" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="2150" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="Item name:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="2120" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="2200" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="Quantity needed:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="2170" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="Select Category:" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="2220" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="Bathroom" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="602.5" y="2260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="Baby's room" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="692.5" y="2260" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="Clothing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="2300" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="Feeding" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="692.5" y="2300" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="Baby's care" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="602.5" y="2340" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="Playtime" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="702.5" y="2340" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="Others" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="597.5" y="2380" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="2440" width="185" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" value="Add this item to my list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="617.5" y="2680" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="Link to item selected (if applicable):" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="2410" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="More details I wish to provide:&amp;nbsp;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="2470" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="602.5" y="2510" width="185" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
