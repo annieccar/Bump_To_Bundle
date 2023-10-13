@@ -139,7 +139,7 @@ const Title = styled.h1`
 
 const Input = styled.div`
   display: flex;
-  align-items: baseline;
+  align-items: center;
 `;
 
 const InputLabel = styled.label`
