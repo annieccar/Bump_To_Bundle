@@ -71,7 +71,7 @@ export const login = async (req, res) => {
 
       res.status(200).json(req.user);
     } else {
-      res.sendStatus(401);
+      res.status(401).send("wrong credentials");
     }
   } catch (err) {
     console.error(err);

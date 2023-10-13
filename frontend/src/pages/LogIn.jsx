@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { useForm } from "react-hook-form";
@@ -9,7 +9,7 @@ import interceptor from "../hooks/useInstanceWithInterceptor";
 export default function LogIn() {
   const expressAPI = interceptor();
   const { setUser } = useUserContext();
-
+  const [wrongCredentials, setWrongCredential] = useState(false);
   const navigate = useNavigate();
 
   const {
@@ -29,6 +29,7 @@ export default function LogIn() {
         navigate("/birthlist");
       })
       .catch((error) => {
+        setWrongCredential(true);
         console.error("An error occurred:", error);
       });
   };
@@ -67,6 +68,7 @@ export default function LogIn() {
               Votre mot de passe doit contenir au moins 8 caractères
             </ErrorSpan>
           )}
+          {wrongCredentials && <ErrorId>Identifiants incorrects</ErrorId>}
           <Buttonbox>
             <Button type="submit" value="Se connecter"></Button>
           </Buttonbox>
@@ -94,6 +96,13 @@ const ErrorSpan = styled.span`
   color: var(--text-color, #ff0000);
   font-family: Montserrat;
   font-size: 14px;
+`;
+
+const ErrorId = styled.span`
+  color: var(--text-color, #ff0000);
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 2em;
 `;
 
 const Formdiv = styled.div`

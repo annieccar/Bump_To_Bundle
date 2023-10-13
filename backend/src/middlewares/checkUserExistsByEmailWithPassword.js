@@ -8,7 +8,7 @@ export const checkUserExistsByEmailWithPassword = async (req, res, next) => {
       req.user = user;
       next();
     } else {
-      res.sendStatus(401);
+      res.status(401).send("wrong credentials");
     }
   } catch (err) {
     console.error(err);
