@@ -47,14 +47,16 @@ function BirthList() {
   return (
     <Page>
       <ListInfo>
-        <Title>Liste de naissance : {listInfo.listname}</Title>
+        <Title>Liste de naissance :</Title>
+        <Title>{listInfo.listname}</Title>
         <Text>
           Pour bébé {listInfo.sex}{" "}
-          {listInfo.babysname === "Not sure yet/Keeping the surprise"
+          {listInfo.babysname === "Je préfères garder la surprise"
             ? ""
             : listInfo.babysname}{" "}
-          dû le {formattedDate}
+          attendu le:
         </Text>
+        <Text>{formattedDate}</Text>
       </ListInfo>
       <List>
         {categories.map((category) => (

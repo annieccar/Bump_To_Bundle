@@ -76,7 +76,7 @@ export default function OfferItem() {
           <Text>Lien vers l'item:</Text>
           <Info>
             {item.link ? (
-              <a href={item.link}>{item.link}</a>
+              <Hyperlink href={item.link}>{item.link}</Hyperlink>
             ) : (
               "Aucun item en particulier n'a été choisi"
             )}
@@ -146,6 +146,16 @@ const InputLabel = styled.label`
   font-style: normal;
   font-weight: 400;
   margin: 0.8em 0;
+`;
+
+const Hyperlink = styled.a`
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 5em;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
 `;
 
 const Qty = styled.div`
@@ -241,6 +251,7 @@ const Info = styled.p`
   font-weight: 400;
   margin-top: 0;
   margin-botttom: 1em;
+  width: 90%;
 `;
 
 const EscapeModal = styled.div`
