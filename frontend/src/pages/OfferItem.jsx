@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import styled from "styled-components";
+import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
 import GiftConfirmModal from "../components/GiftConfirmModal";
 import { useUserContext } from "../contexts/UserContext";
@@ -11,6 +12,7 @@ export default function OfferItem() {
 
   const [item, setItem] = useState({});
   const [modal, setModal] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
   const { user } = useUserContext();
   const userId = user.id;
 
@@ -64,9 +66,37 @@ export default function OfferItem() {
     navigate("/birthlist");
   };
 
+  const handleResize = () => {
+    if (window.innerWidth <= 1024) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
+
+  useEffect(() => {
+    handleResize();
+  }, []);
+
+  window.addEventListener("resize", handleResize);
+
   return (
     <>
       <Page>
+        {isMobile ? (
+          <Back onClick={() => navigate("/birthlist")}>
+            <BsFillArrowLeftSquareFill
+              style={{
+                color: "#666666",
+                height: "1.2em",
+                width: "1.2em",
+              }}
+            />
+            <BackText>Retour à la liste</BackText>
+          </Back>
+        ) : (
+          ""
+        )}
         <Formdiv>
           <Title>{item.name}</Title>
           <Input>
@@ -119,6 +149,27 @@ export default function OfferItem() {
     </>
   );
 }
+
+const Back = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #666666;
+  font-family: "Chilanka";
+  border: none;
+  margin-top: 1em;
+  margin-left: 1em;
+  height: 2em;
+  width: 100%;
+`;
+
+const BackText = styled.p`
+  margin: 0;
+  margin-left: 0.5em;
+  text-align: center;
+  font-size: 1.2em;
+  transform: translateY(1px);
+`;
 
 const Title = styled.h1`
   text-align: center;
