@@ -76,11 +76,14 @@ function GiftCard({ gift, setEditModal, setDeleteModal }) {
         <Qty>{gift.offered_quantity}</Qty>
       </Input>
       <Text>Lien vers l'item:</Text>
-      {gift.link ? (
-        <Anchor href={gift.link}>{gift.link}</Anchor>
-      ) : (
-        <Info>Sans Objet</Info>
-      )}
+      <Info>
+        {gift.link ? (
+          <Anchor href={gift.link}>{gift.link}</Anchor>
+        ) : (
+          <p>Sans Objet</p>
+        )}
+      </Info>
+
       <Text>Information complémentaire:</Text>
       {gift.details ? <Info>{gift.details}</Info> : <Info>Sans Objet</Info>}
       <Input>
@@ -117,15 +120,13 @@ const ButtonBox = styled.div`
 `;
 
 const Anchor = styled.a`
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 5em;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
 `;
 
 const Title = styled.h1`
@@ -241,7 +242,7 @@ const Info = styled.p`
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1em;
-  width: 100%;
+  width: 90%;
   height: auto;
 `;
 
