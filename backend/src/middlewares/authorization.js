@@ -12,15 +12,15 @@ export const authorization = (req, res, next) => {
     return res.status(403).send({
       message: "No token provided.",
     });
+  } else {
+    verify(token, TOKEN_SECRET, (err, decoded) => {
+      if (err) {
+        return catchError(err, res);
+      }
+
+      const data = decodeJWT(token);
+
+      return next();
+    });
   }
-  return verify(token, TOKEN_SECRET, (err, decoded) => {
-    if (err) {
-      return catchError(err, res);
-    }
-
-    const data = decodeJWT(token);
-    req.user = data;
-
-    return next();
-  });
 };

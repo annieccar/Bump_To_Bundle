@@ -68,7 +68,6 @@ export const login = async (req, res) => {
         httpOnly: true,
         secure: false,
       });
-
       res.status(200).json(req.user);
     } else {
       res.status(401).send("wrong credentials");
