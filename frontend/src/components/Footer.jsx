@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Footer() {
   return (
     <Container>
-      <Text>@ 2023 BumToBundle</Text>
+      <Text>@ 2023 BumpToBundle</Text>
     </Container>
   );
 }
