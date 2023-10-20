@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { useForm } from "react-hook-form";
@@ -10,6 +10,7 @@ export default function SignIn() {
   const { setUser } = useUserContext();
   const expressAPI = interceptor();
   const navigate = useNavigate();
+  const [emailExist, setEmailExist] = useState(false);
 
   const {
     register,
@@ -30,6 +31,12 @@ export default function SignIn() {
         navigate("/birthlist");
       })
       .catch((error) => {
+        if (
+          error.response.data.message ===
+          "A user with this email adress already exists"
+        ) {
+          setEmailExist(true);
+        }
         console.error("An error occurred:", error);
       });
   };
@@ -115,6 +122,12 @@ export default function SignIn() {
           {errors.confirmpassword && (
             <ErrorSpan>Vos mots de passe ne correspondent pas</ErrorSpan>
           )}
+          {emailExist && (
+            <ErrorId>
+              Un compte existe déjà avec cette adresse mail, veuillez plutôt
+              vous connecter
+            </ErrorId>
+          )}
           <Buttonbox>
             <Button type="submit" value="S'enregistrer"></Button>
           </Buttonbox>
@@ -136,6 +149,13 @@ const Title = styled.h1`
   font-family: "Chilanka";
   margin: 1em;
   font-size: 2em;
+`;
+
+const ErrorId = styled.span`
+  color: var(--text-color, #ff0000);
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 2em;
 `;
 
 const InputLabel = styled.label`
